@@ -1,0 +1,362 @@
+div.main_bg {
+  width: 100%;
+  background-color: #F3F1F4;
+}
+div.main_bg div.act-banner {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+div.main_bg div.act-banner img {
+  width: 950px;
+  height: 330px;
+  margin: 0 auto;
+}
+div.main_bg main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1050px;
+  margin-left: 106px;
+  margin-right: 200px;
+}
+div.main_bg main div.act-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.main_bg main div.act-item div.date {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F43499;
+  font-size: 12px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 12px;
+}
+div.main_bg main div.act-item div.date span.date-right-arrow {
+  display: block;
+  position: absolute;
+  right: -2px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  transform: rotate(45deg);
+  background-color: #F43499;
+  border-left: 1px solid #F43499;
+  border-top: 1px solid #F43499;
+}
+div.main_bg main div.act-item div.date div.date-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  right: -31px;
+  top: 20px;
+  background-color: #F43499;
+}
+div.main_bg main div.act-item section.act-shop-list {
+  border-left: 2px solid #DEDEDE;
+  overflow: hidden;
+  padding-right: 5px;
+  padding-left: 15px;
+  width: 975px;
+}
+div.main_bg main div.act-item section.act-shop-list div.act-shop-title {
+  display: flex;
+  flex-direction: row;
+  background-color: #F43499;
+  color: #fff;
+  width: 950px;
+  height: 40px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+div.main_bg main div.act-item section.act-shop-list div.act-shop-title div.title-date {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+div.main_bg main div.act-item section.act-shop-list div.act-shop-title div.title-date span.date-arrow {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  transform: rotate(45deg);
+  background-color: #F43499;
+}
+div.main_bg main div.act-item section.act-shop-list div.act-shop-title div.title-date span.date-calendar {
+  display: block;
+  width: 20px;
+  height: 18px;
+  margin-left: 10px;
+  margin-right: 0px;
+  align-self: center;
+  margin-top: 8px;
+  background: url("../images/act/brands_date_imgs.png") -515px -113px no-repeat;
+}
+div.main_bg main div.act-item section.act-shop-list div.act-shop-title div.title-date i {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-style: normal;
+  display: inline-block;
+  align-self: flex-end;
+}
+div.main_bg main div.act-item section.act-shop-list div.act-shop-title div.title-date span.week {
+  align-self: flex-end;
+}
+div.main_bg main div.act-item section.act-shop-list div.act-shop-title div.title-start {
+  width: 745px;
+  background-color: #666666;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+div.main_bg main div.act-item section.act-shop-list div.sub-title {
+  width: 950px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+div.main_bg main div.act-item section.act-shop-list div.sub-title span.star {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background: url("../images/act/star.png") no-repeat;
+}
+div.main_bg main div.act-item section.act-shop-list div.sub-title span.heart {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background: url("../images/act/heart.png") no-repeat;
+}
+div.main_bg main div.act-item section.act-shop-list div.sub-title span {
+  display: inline-block;
+  font-style: italic;
+}
+div.main_bg main div.act-item section.act-shop-list div.sub-title span:nth-child(2),
+div.main_bg main div.act-item section.act-shop-list div.sub-title span:nth-child(3) {
+  color: #F43499;
+  font-size: 28px;
+  font-weight: bold;
+}
+div.main_bg main div.act-item section.act-shop-list div.sub-title span:nth-child(3) {
+  color: #ccc;
+  font-weight: normal;
+}
+div.main_bg main div.act-item section.act-shop-list div.sub-title span:nth-child(4) {
+  font-size: 18px;
+  color: #333;
+  line-height: 30px;
+}
+div.main_bg main div.act-item section.act-shop-list div.sub-title2 span:nth-child(2) {
+  color: #FD4A5E;
+  font-size: 28px;
+  font-weight: bold;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items a {
+  width: 310px;
+  height: 230px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  position: relative;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items a img {
+  width: 300px;
+  height: 180px;
+  margin: 5px 5px 0 5px;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items a div.img-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  line-height: 50px;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items a div.img-bottom span {
+  color: #999;
+  font-size: 12px;
+  align-self: flex-end;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items a div.img-bottom span em {
+  color: #F43499;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items a div.img-bottom span:first-child {
+  font-size: 14px;
+  color: #666;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items a div.a-more {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -60px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  background: 0;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items a div.a-more:hover {
+  background: rgba(244, 52, 153, 0.6);
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2px 10px;
+  margin: 20px 2px 0px;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a {
+  width: 280px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #fff;
+  border-bottom: 1px dashed #ccc;
+  margin-top: 0;
+  padding: 8px 0;
+  position: relative;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a img {
+  width: 70px;
+  height: 55px;
+  margin: 3px;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a div.img-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a div.img-right span {
+  font-size: 12px;
+  color: #333;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a div.img-right span:nth-child(2) {
+  color: #F43499;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a div.img-right div.right-add {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 12px;
+  color: #F43499;
+  padding: 1px;
+  display: none;
+  background-color: rgba(244, 52, 153, 0.2);
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a div.img-right div.right-add span {
+  font-size: 18px;
+  color: #F43499;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a:hover {
+  border: 1px solid #F43499;
+}
+div.main_bg main div.act-item section.act-shop-list div.shop-items2 a:hover div.img-right div.right-add {
+  display: block;
+}
+div.main_bg main a.guangguang {
+  background-color: #F43499;
+  color: #fff;
+  text-align: center;
+  width: 220px;
+  height: 45px;
+  line-height: 45px;
+  margin: 40px auto 60px;
+}
+div.fixed-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+}
+div.fixed-bar div.fixed-cons {
+  width: 990px;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+div.fixed-bar div.fixed-cons div.fixed-center {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+div.fixed-bar div.fixed-cons div.fixed-center span.fixed-add {
+  width: 42px;
+  height: 40px;
+  display: block;
+  margin-right: 10px;
+  background: url("../images/act/fix-add.png");
+}
+div.fixed-bar div.fixed-cons div.fixed-center span.like {
+  font-size: 28px;
+  line-height: 40px;
+  align-self: flex-end;
+}
+div.fixed-bar div.fixed-cons div.fixed-center span:last-child {
+  font-size: 14px;
+  line-height: 40px;
+  align-self: flex-end;
+}
+div.fixed-bar div.fixed-cons div.fixed-right {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  align-content: center;
+  justify-content: space-between;
+}
+div.fixed-bar div.fixed-cons div.fixed-right input {
+  width: 220px;
+  height: 30px;
+  text-indent: 1em;
+}
+div.fixed-bar div.fixed-cons div.fixed-right input::placeholder {
+  font-size: 12px;
+  color: #999;
+}
+div.fixed-bar div.fixed-cons div.fixed-right button {
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+  border: 0;
+  color: #999;
+}

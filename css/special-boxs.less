@@ -1,0 +1,110 @@
+.special-boxs{
+            width: 490px;
+            height: 270px;
+            float: left;
+            margin:20px 0;
+            .black-img{
+                position: relative;
+                height: 235px;
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                a{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    display: block;
+                    color: white;
+                    font-size: 12px;
+                    background: rgba(0,0,0,.6);
+                    width:100%;
+                    height: 30px;
+                    padding-left: 20px;
+                    padding-top: 5px;
+                    span{
+                        display: block;
+                        position: absolute;
+                        left: 5px;
+                        top: 10px;
+                        width: 10px;
+                        height: 10px;
+                        background-image: url(../images/yd/sprites-hash-b15f4b7d_12.png)
+                    }
+                }
+                .cellect{
+                    display: none;
+                    width: 90px;
+                    height: 18px;
+                    position: absolute;
+                    right: 5px;
+                    bottom:5px;
+                    border-radius: 10px;
+                    font-size:12px;
+                    background-color: #ECECEC;
+                    padding-left: 27px;
+                    span{
+                        display: block;
+                        width: 18px;
+                        height: 14px;
+                        position: absolute;
+                        left: 5px;
+                        top:2px;
+                        background-image: url(../images/yd/2017-10-17_142414.png);
+                    }
+                    &:hover{
+                        background-color: #F10582;
+                        color: white;
+                        span{
+                        background-image: url(../images/yd/2017-10-17_142430.png);
+                        }
+                    }
+                }
+            }
+            .word{
+                width: 100%;
+                height: 35px;
+                padding-left: 20px;
+                padding-top: 10px;
+                p{
+                   float: left;
+                   color: #626262;
+                   font-size: 14px;
+                   span{
+                        font-weight: bold;
+                       font-size: 25px;
+                       color:#F10582;
+                       margin-right: 3px;
+                   } 
+                }
+                .big-black{
+                    color: black;
+                    font-size: 18px;
+                }
+                
+                .box-time{
+                    float: right;
+                    padding-right:15px;
+                   
+                    span{
+                        float: left;
+                        margin-right: 5px;
+                        display: block;
+                        width: 16px;
+                        height: 16px;
+                        background-image: url(../images/yd/2017-10-17_155945.png)
+                    }
+                }
+                .zhekou{
+                    float: right;
+                    padding-right: 10px;
+                    color: black;
+                    font-size: 16px;
+                }
+
+        }
+}
+.special-boxs:nth-child(even){
+            margin-right: 20px;
+        }

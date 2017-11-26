@@ -1,0 +1,21 @@
+.nav-big-ad {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../images/index/15075340697360.jpg);
+}
+.nav-big-ad .big-ad {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+.nav-big-ad .big-ad ul {
+  overflow: hidden;
+  width: 100000px;
+}
+.nav-big-ad .big-ad ul li {
+  float: left;
+  width: 1000px;
+}
+.nav-big-ad .big-ad ul li img {
+  width: 960px;
+}

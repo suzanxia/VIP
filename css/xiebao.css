@@ -1,0 +1,32 @@
+.tuijian ul {
+  width: 100%;
+  height: 153px;
+  display: flex;
+  justify-content: space-between;
+}
+.tuijian ul li {
+  width: 24%;
+}
+.tuijian ul img {
+  width: 100%;
+  height: 100%;
+}
+.tuijian-xiebao-title {
+  width: 1000px;
+  height: 60px;
+  margin: 20px auto;
+}
+.tuijian-xiebao-title img {
+  display: block;
+  margin: 0 auto;
+}
+.block-title {
+  float: left;
+  height: 60px;
+  margin: 20px 0;
+}
+footer {
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 3100px;
+}
